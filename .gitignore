@@ -1,0 +1,11 @@
+# .txt file
+*.txt
+
+# not in use
+not-in-use/
+
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]

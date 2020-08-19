@@ -9,6 +9,7 @@ def getRand():
       txt_data.write(numStr + "\n")
       txt_data.close()
       print(numbers)
-      return numbers
       time.sleep(1)
 
+
+getRand()

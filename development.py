@@ -7,8 +7,10 @@ app = Flask(__name__)
 @app.route("/numbers/",)
 def numbers():
   nums = getRand()
+  numStr = str(nums)
   print(nums)
-  return str(nums)
+  print(type(numStr))
+  return numStr
 
 numbers()
 @app.route("/",)
@@ -17,4 +19,4 @@ def index():
 
 
 if __name__ == "__main__":
-  app.run(host="localhost", port=int("5000"))
+  app.run(host="localhost", port=int("5001"))

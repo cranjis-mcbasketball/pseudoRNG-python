@@ -2,9 +2,7 @@ from flask import Flask
 from numpyPseudoRNG import getRand
 app = Flask(__name__)
 
-
-
-@app.route("/numbers/",)
+@app.route("/numbers",)
 def numbers():
   nums = getRand()
   print(nums)

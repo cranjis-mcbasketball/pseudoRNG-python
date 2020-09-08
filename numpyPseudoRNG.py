@@ -1,5 +1,7 @@
 import time
 import numpy as np
+import flask
+print(flask.__version__)
 
 def getRand():
   while True:

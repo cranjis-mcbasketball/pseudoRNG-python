@@ -1,5 +1,5 @@
 from flask import Flask
-from numpyPseudoRNG import getRand
+import numpy as np
 app = Flask(__name__)
 
 @app.route("/numbers",)
@@ -23,6 +23,9 @@ getByte()
 def index():
   return "welcome to the pseudoRNG python server"
 
-
 if __name__ == "__main__":
-  app.run(host="ec2-54-193-121-13.us-west-1.compute.amazonaws.com", port=int("5000"))
+  app.run(host="localhost", port=int("5001"))
+
+
+# if __name__ == "__main__":
+#   app.run(host="ec2-54-193-121-13.us-west-1.compute.amazonaws.com", port=int("5000"))

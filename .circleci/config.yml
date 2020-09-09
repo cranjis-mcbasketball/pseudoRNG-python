@@ -21,6 +21,5 @@ jobs:
       - run:
           name: run tests
           command: |
-            pseudoRNG-venv/bin/activate
             flake8 --exclude=pseudoRNG-venv* --statistics
             pytest -v --cov=numpyPseudoRNG

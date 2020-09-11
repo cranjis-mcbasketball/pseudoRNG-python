@@ -1,6 +1,6 @@
 import time
 import numpy as np
-
+# import commit
 
 def getRand():
     while True:
@@ -13,4 +13,13 @@ def getRand():
         time.sleep(1)
 
 
+
+
+# def commitNewData():
+#     time.sleep(60)
+#     commit.updateGithub()
+#     time.sleep(540)
+
+
 getRand()
+# commitNewData()
